@@ -2,20 +2,18 @@ package ru.kravchenko.se;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 /**
- * Hello world!
+ * Solution to lesson 01
  *
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        String [] arr = {"222", "111"};
 
-    }
-
+          }
 
     /**
      *  Задание 1.  Написать метод, который меняет два элемента массива местами.
@@ -31,7 +29,6 @@ public class App
         o[y] = tmp;
     }
 
-
     /**
      * Задание 2. Написать метод, который преобразует массив в ArrayList;
      * @param arr
@@ -44,24 +41,6 @@ public class App
         return result;
     }
 
-
-
-
-
-
-
-
-
 }
-
-
-//
-//    static <T> T changeArrays (ArrayList <T> arrays){
-//        ArrayList<T> tmp = new ArrayList<>(); // буферный массив
-//        tmp.add(arrays.get(0));
-//        arrays.add(0, arrays.get(1));
-//        arrays.add(tmp.get(0));
-//        return (T) arrays;
-//    }
 
 
